@@ -155,3 +155,29 @@ do {
     console.log('Yesser')
     compteur++
 } while (compteur < 10);
+
+
+var mois = 3
+
+
+switch(mois){
+  case 1 : console.log('Janvier')
+           break
+  case 3 : console.log('Mars')
+           break  
+  default : console.log('Wrong value')
+} 
+
+var t = [2,"Rahma",4,5,"Rania",10]
+
+// for(var i = 0; i<t.length;i++){
+//   console.log(t[i])
+// }
+
+// for(var i in t){
+//   console.log(t[i])
+// }
+
+for(var djeja of t){
+  console.log(djeja)
+}
