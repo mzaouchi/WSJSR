@@ -181,3 +181,13 @@ var t = [2,"Rahma",4,5,"Rania",10]
 for(var djeja of t){
   console.log(djeja)
 }
+
+function Somme(a,b){
+  return a*b
+}
+
+
+console.log(Somme(2,4))
+console.log(Somme(3,9))
+console.log(Somme(2,5))
+
